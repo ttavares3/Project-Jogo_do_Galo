@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+  <head>
+    <title>Jogo do Galo</title>
+    <meta charset="UTF-8">
+	<!-- <h1 align="center"><b>Jogo do Galo</b></h1> -->
+      <link rel="stylesheet" href="css/estilos.css">
+	  <script src="js/java.js"></script>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+      <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div is="page" id="home" data-role="page">
+  <div is="header" data-role="header" data-position="fixed">
+    <h2>Jogo do Galo</h2>
+  </div>
+  <br></br>
+  <div is="content" role="main" class="ui-content">
+    <a is="button" class="ui-btn" onClick="history.go(0)">Recomeçar</a>
+	<br></br>
+	
+  <!-- <div id="jogo" > -->
+  <!-- <div class="linha"> -->
+    <!-- <div id="quadrado0" class="coluna" onclick="clica(0)"></div> -->
+    <!-- <div id="quadrado1" class="coluna" onclick="clica(1)"></div> -->
+    <!-- <div id="quadrado2" class="coluna" onclick="clica(2)"></div> -->
+  <!-- </div> -->
+  <!-- <div class="linha"> -->
+    <!-- <div id="quadrado3" class="coluna" onclick="clica(3)"></div> -->
+    <!-- <div id="quadrado4" class="coluna" onclick="clica(4)"></div> -->
+    <!-- <div id="quadrado5" class="coluna" onclick="clica(5)"></div> -->
+  <!-- </div> -->
+  <!-- <div class="linha"> -->
+    <!-- <div id="quadrado6" class="coluna" onclick="clica(6)"></div> -->
+    <!-- <div id="quadrado7" class="coluna" onclick="clica(7)"></div> -->
+    <!-- <div id="quadrado8" class="coluna" onclick="clica(8)"></div> -->
+  <!-- </div> -->
+<!-- </div> -->
+
+<div id="jogo" >
+  <div class="linha">
+  
+<div is="grid" class="ui-grid-b" style="height:95px">
+      <div is="block" id="quadrado0" class="coluna" onclick="clica(0)" class="ui-block-a" style="height:50%">
+        <a is="button" class="ui-btn ui-btn-inline" style="height:50px;width:50px;"><b>0</b></a>
+      </div>
+      <div is="block" id="quadrado1" class="coluna" onclick="clica(1)" class="ui-block-b" style="height:50%">
+        <a is="button" class="ui-btn ui-btn-inline" style="height:50px;width:50px;"><b>1</b></a>
+      </div>
+      <div is="block" id="quadrado2" class="coluna" onclick="clica(2)" class="ui-block-c" style="height:50%">
+        <a is="button" class="ui-btn ui-btn-inline" style="height:50px;width:50px;"><b>2</b></a>
+      </div>
+    </div>
+	
+    <div is="grid" class="ui-grid-b" style="height:95px">
+      <div is="block" id="quadrado3" class="coluna" onclick="clica(3)" class="ui-block-a" style="height:50%">
+        <a is="button" class="ui-btn ui-btn-inline" style="height:50px;width:50px;"><b>3</b></a>
+      </div>
+      <div is="block" id="quadrado4" class="coluna" onclick="clica(4)" class="ui-block-b" style="height:50%">
+        <a is="button" class="ui-btn ui-btn-inline" style="height:50px;width:50px;"><b>4</b></a>
+      </div>
+      <div is="block" id="quadrado5" class="coluna" onclick="clica(5)" class="ui-block-c" style="height:50%">
+        <a is="button" class="ui-btn ui-btn-inline" style="height:50px;width:50px;"><b>5</b></a>
+      </div>
+    </div>
+	
+    <div is="grid" class="ui-grid-b" style="height:95px">
+      <div is="block" id="quadrado6" class="coluna" onclick="clica(6)" class="ui-block-a" style="height:50%">
+        <a is="button" class="ui-btn ui-btn-inline" style="height:50px;width:50px;"><b>6</b></a>
+      </div>
+      <div is="block" id="quadrado7" class="coluna" onclick="clica(7)" class="ui-block-b" style="height:50%">
+        <a is="button" class="ui-btn ui-btn-inline" style="height:50px;width:50px;"><b>7</b></a>
+      </div>
+      <div is="block" id="quadrado8" class="coluna" onclick="clica(8)" class="ui-block-c" style="height:50%">
+        <a is="button" class="ui-btn ui-btn-inline" style="height:50px;width:50px;"><b>8</b></a>
+      </div>
+    </div>
+	
+	<div is="footer" data-role="footer" data-position="fixed">
+    <h3>©Tânia Tavares</h3>
+   </div>
+   
+  </div>
+  </div>
+</body>
+</html>

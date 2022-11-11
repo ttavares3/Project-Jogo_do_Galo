@@ -1,0 +1,19 @@
+.coluna {
+  width: 100px;
+  height: 100px;
+  /* border: 1px solid black; */
+  float: left;
+  text-align:center;
+  line-height: 100px;
+  font-size: 100px;
+  
+}
+.linha {
+  overflow: hidden;
+}
+#jogo{
+		margin: 0 auto;
+		width: 27.4em;
+		height: 27.4em;
+		cursor: pointer;
+}
